@@ -1,4 +1,4 @@
-package com.dicoding.jetpackpro.viewmodel
+package com.dicoding.jetpackpro.ui.main
 
 import com.dicoding.jetpackpro.model.CuboiModel
 

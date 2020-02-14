@@ -1,6 +1,7 @@
 package com.dicoding.jetpackpro.viewmodel
 
 import com.dicoding.jetpackpro.model.CuboiModel
+import com.dicoding.jetpackpro.ui.main.MainViewModel
 import org.junit.Test
 
 import org.junit.Assert.*

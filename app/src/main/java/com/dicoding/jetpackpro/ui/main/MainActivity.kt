@@ -1,10 +1,10 @@
-package com.dicoding.jetpackpro
+package com.dicoding.jetpackpro.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.dicoding.jetpackpro.R
 import com.dicoding.jetpackpro.model.CuboiModel
-import com.dicoding.jetpackpro.viewmodel.MainViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
@@ -15,7 +15,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        mainViewModel = MainViewModel(CuboiModel())
+        mainViewModel =
+            MainViewModel(CuboiModel())
 
         btn_save.setOnClickListener(this)
         btn_calculate_surface_area.setOnClickListener(this)
